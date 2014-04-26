@@ -1,23 +1,40 @@
 #header {
     height: 10%;
-    width:90%;
+    width:100%;
     border-radius: 5px;
     text-align: center;
     background-color: #0971B2;
     margin: auto;
 }
 #navbar {
-    height: 100%;
-    width: 30%;
-    position: fixed;
+    height: 90%;
+    width: 35%;
     text-decoration: none;
     background-color: #B21212;
     float: left;
     text-align: center;
     display:inline-block;
+    border-radius: 5px;
+    position: fixed;
 }
 div a {
     text-decoration: none;
     color: black;
+}
+a:hover {
+    color:blue;
+    font-family: Impact;
+}
+#footer {
+    width:70%;
+    height:10%;
     border-radius: 5px;
+    background-color: #0971B2;
+    float: right
+    margin-bottom: 0%;
+}
+img {
+    height: 60%;
+    width:69%;
+    float: right;
 }
