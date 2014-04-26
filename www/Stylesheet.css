@@ -35,6 +35,16 @@ a:hover {
 }
 img {
     height: 60%;
-    width:69%;
+    width:60%;
     float: right;
+}
+#googlesearch {
+    width: 35%;
+}
+.GameButton {
+    height: 15%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #0971B2;
+    margin-top: 5%;
 }
