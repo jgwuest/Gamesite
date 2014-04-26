@@ -17,30 +17,6 @@
     border-radius: 5px;
     position: fixed;
 }
-div a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    color:blue;
-    font-family: Impact;
-}
-#footer {
-    width:70%;
-    height:10%;
-    border-radius: 5px;
-    background-color: #0971B2;
-    float: right
-    margin-bottom: 0%;
-}
-img {
-    height: 60%;
-    width:60%;
-    float: right;
-}
-#googlesearch {
-    width: 35%;
-}
 .GameButton {
     height: 15%;
     width: 94%;
