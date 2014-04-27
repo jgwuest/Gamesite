@@ -8,7 +8,7 @@
 }
 #navbar {
     height: 90%;
-    width: 35%;
+    width: 32%;
     text-decoration: none;
     background-color: #B21212;
     float: left;
@@ -16,6 +16,7 @@
     display:inline-block;
     border-radius: 5px;
     position: fixed;
+    font-size: 150%;
 }
 .GameButton {
     height: 15%;
@@ -23,4 +24,13 @@
     border-radius: 5px;
     background-color: #0971B2;
     margin-top: 5%;
+}
+#sudoku {
+    float: right
+}
+#alieninvaders {
+    float: right;
+    }
+iframe {
+    float:right;
 }

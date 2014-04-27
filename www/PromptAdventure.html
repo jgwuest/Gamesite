@@ -11,6 +11,57 @@
             <div class="GameButton"><a href="Sudoku.html">Sudoku</a></div>
             <div class="GameButton"><a href="PromptAdventure.html">Prompt Adventure</a></div>
 
-        </ul></div>  
+        </ul></div>
+<script type="text/javascript">
+    var answer = confirm("do you want to play");
+if (answer === true) {
+    var rules = prompt("welcome to prompt adventure there are a couple rules: 1). if your life hits 0 you lose 2). if you chose the wrong diecicion you lose and the prompt closes" + "do you agree?(yes or no)");
+    if (rules === "yes") {
+        var storyone = prompt("you wake up in a abandoned house and you see someone sitting in the corner across from you what do you do?" + "(approach or stay)");
+        if (storyone === "stay") {
+            prompt("the being approaches you and lightning strikes and then both of you are gone GAMEOVER");
+        }
+        if (storyone === "approach") {
+            var storytwo = prompt("you approach the being and there a lightning flash and thens its gone you diecide to go to the door right next to you but then you stop do you really want to do to the door?(yes or no)");
+            if (storytwo === "yes") {
+                var storythree = prompt("you open the door and you get attacked by a moster what do you do (fight or run)");
+                if (storythree === "run") {
+                    prompt("you corner yourself in the room and he kills you GAMEOVER");
+                }
+                if (storythree === "fight") {
+                    var attack = prompt("The moster has 3 attack and 5 hp you have 10 hp and 5 atk attack and he strikes at you your hp = 7 and you stike back and kill it good job but your still in the house and you go down the stairs you see the exit but also a treasure chest in the room nearby what do you do(leave or no)");
+                    if (attack === "leave") {
+                        var storyfour = prompt("you open the door and right in front of you is a giant monster and crushes you dealing 500 damage you lose GAME OVER");
+                    }
+                    if (attack === "no") {
+                        var end = prompt("you turn the corner and you approach the chest and open it you find a potion now your hp = 10 again and you find a sword which allows you to fight first and deal 1000 damage do you want to go outside now that your prepared for whats coming(yes or no)");
+                        if (end === "no") {
+                            prompt("you stay in the house forever and die GAMEOVER");
+                        }
+                        if (end === "yes") {
+                            var endchoice = prompt("you go outside and you are approached by a giant monster do you fight (yes or no)");
+                            if (endchoice === "no") {
+                                prompt("he kills you anyway. GAMEOVER");
+                            }
+                            if (endchoice === "yes") {
+                                var endgame = prompt("you attack and kill the creature immediatly you now hae left the nightmare house and now on the open road you have almost infinte power from killing the boss do you want to rule the world?(yes or no)");
+                                if (endgame === "yes") {
+                                    prompt("you rule the world but in the process you kill everyone THE END");
+                                    if (endgame === "no") {
+                                        prompt("you starve to death in the woods GAMEOVER");
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+    </script>
 </body>
 </html>
